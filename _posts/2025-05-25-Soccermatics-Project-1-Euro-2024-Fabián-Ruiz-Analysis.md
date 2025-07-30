@@ -2,7 +2,6 @@
 # Euro 2024 Player Analysis: Fabián Ruíz
 **By: Guy Kaye**
 
-![Football Field Diagram](../assets/images/football-field-diagram.png)
 
 ## Introduction
 
@@ -21,6 +20,9 @@ This analysis explores how Fabián's technical security under pressure and intel
 **Second**, I propose that Fabián was among the most effective midfielders in the tournament at retaining possession under pressure, a trait essential to Spain's control-oriented style of play.
 
 ## Spatial Analysis
+
+![Football Field Diagram](../assets/images/football-field-diagram.png)
+
 
 The heat map shows where Fabián Ruiz received the ball from teammates during Euro 2024. While there's a clear concentration in the left half-space—typical for his role as a left central midfielder—he also appeared in deeper areas and occasionally drifted across to the right. 
 
