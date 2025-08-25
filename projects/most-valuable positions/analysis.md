@@ -104,7 +104,7 @@ Similar to the Premier League, Center Forwards and Center Backs were the most tr
 **Most Valuable Position:** Center Forward  
 **Positional Hierarchy:** CF > Winger/AM > CB > MF > FB > GK
 
-*[Visualization 3: Serie A positional breakdown]*
+![Serie A Positional Value Boxplots](images/serie-a-positional-values.png)
 
 ### Serie A
 **Most Valuable Position:** Center Forward  
@@ -126,7 +126,7 @@ A key difference in Serie A: the Winger/AM category was no longer the most trans
 **Most Valuable Position:** Center-backs & Defensive Midfielders  
 **Positional Hierarchy:** CB/DM > CF > Winger/AM > FB > GK
 
-*[Visualization 4: Bundesliga unique valuation pattern]*
+![Bundesliga Positional Value Boxplots](images/bundesliga-positional-values.png)
 
 **Transfer Volume & Expenditure Patterns:**
 The Center Forward and Center Back positions remained the most transferred-in, with Winger/AM as the most transferred category (consistent with other European leagues). Despite this unique valuation pattern, expenditure remained evenly distributed across positions.
@@ -142,7 +142,7 @@ The Center Forward and Center Back positions remained the most transferred-in, w
 **Most Valuable Position:** Center Forwards & Midfielders  
 **Positional Hierarchy:** CF/MF > Winger/AM > CB > FB > GK
 
-*[Visualization 5: Ligue 1 analysis with outlier effects]*
+![Ligue 1 Positional Value Boxplots](images/ligue-1-positional-values.png)
 
 ### Ligue 1
 **Most Valuable Position:** Center Forwards & Midfielders  
