@@ -50,7 +50,8 @@ Before examining individual league patterns, it's crucial to understand the Prem
 - This massive disparity indicates the Premier League's exceptional financial superiority
 - This disparity significantly skews combined European transfer analysis
 
-*[Visualization: Premier League vs Other Leagues - Spending Comparison]*
+![Premier League vs Other Leagues Spending Comparison](images/Visualization-%20Premier%20League%20vs%20Other%20Leagues%20-%20Spending%20Comparison.png)
+*Figure 1: Premier League vs Other Leagues - Spending Comparison*
 
 This financial dominance means Premier League clubs can afford to pay premium prices for players, inflating the overall market and making their positional valuations less representative of broader European trends. When analyzing the combined data, this Premier League effect must be considered as it artificially elevates certain positional values.
 
