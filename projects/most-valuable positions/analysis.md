@@ -82,7 +82,7 @@ The Center Forward (CF) and Center Back (CB) positions saw the highest transfer 
 **Most Valuable Position:** Wingers/Attacking Midfielders  
 **Positional Hierarchy:** Winger/AM > CF > CB > MF > FB > GK
 
-*[Visualization 2: La Liga positional value analysis]*
+![La Liga Positional Value Boxplots](images/la-liga-positional-values.png)
 
 ### La Liga  
 **Most Valuable Position:** Wingers/Attacking Midfielders  
