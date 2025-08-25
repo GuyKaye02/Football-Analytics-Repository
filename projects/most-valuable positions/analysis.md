@@ -59,7 +59,8 @@ This financial dominance means Premier League clubs can afford to pay premium pr
 **Most Valuable Position:** Center Forward  
 **Positional Hierarchy:** CF > Winger/AM > CB > MF > FB > GK
 
-*[Visualization 1: Premier League positional value boxplots]*
+![Premier League Positional Value Boxplots](images/Visualization_1_PL_positional_value_boxplots.png)
+*Figure 1: Premier League positional value boxplots*
 
 ### Premier League
 **Most Valuable Position:** Center Forward  
