@@ -68,6 +68,8 @@ This financial dominance means Premier League clubs can afford to pay premium pr
 **Positional Hierarchy:** CF > Winger/AM > CB > MF > FB > GK
 
 *[Visualization 1: Premier League positional value boxplots]*
+![Premier League .....](images/epl-pos.png)
+![Premier League .....](images/epl-specific-pos.png)
 
 **Transfer Volume & Expenditure Patterns:**
 The Center Forward (CF) and Center Back (CB) positions saw the highest transfer activity, representing the most transferred-in positions. However, expenditure was distributed relatively evenly across position groups until a notable drop-off at Full-backs and Goalkeepers.
