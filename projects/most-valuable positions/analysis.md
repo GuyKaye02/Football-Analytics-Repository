@@ -87,14 +87,17 @@ The Center Forward (CF) and Center Back (CB) positions saw the highest transfer 
 **Positional Hierarchy:** Winger/AM > CF > CB > MF > FB > GK
 
 ![La Liga Positional Value Boxplots](images/la-liga-positional-values.png)
+*Figure 5: La Liga positional value distribution*
 
 ### La Liga  
 **Most Valuable Position:** Wingers/Attacking Midfielders  
 **Positional Hierarchy:** Winger/AM > CF > CB > MF > FB > GK
 
-*[Visualization 2: La Liga positional value analysis]*
+
 ![La Liga .....](images/la-liga-pos.png)
+*Figure 6: Broad position analysis for La Liga*
 ![La Liga .....](images/la-liga-specific-pos.png)
+*Figure 7: Detailed positional values in La Liga*
 
 **Transfer Volume & Expenditure Patterns:**
 Similar to the Premier League, Center Forwards and Center Backs were the most transferred-in positions. However, there was a greater proportional spend on the Winger/AM group, with less even distribution compared to England, particularly showing reduced investment in defensive players.
@@ -110,15 +113,18 @@ Similar to the Premier League, Center Forwards and Center Backs were the most tr
 **Most Valuable Position:** Center Forward  
 **Positional Hierarchy:** CF > Winger/AM > CB > MF > FB > GK
 
+*Figure 8: Serie A positional values overview*
 ![Serie A Positional Value Boxplots](images/serie-a-positional-values.png)
 
 ### Serie A
 **Most Valuable Position:** Center Forward  
 **Positional Hierarchy:** CF > Winger/AM > CB > MF > FB > GK
 
-*[Visualization 3: Serie A positional breakdown]*
+
 ![Serie A .....](images/serie-a-pos.png)
+*Figure 9: Broad position analysis for Serie A*
 ![Serie A .....](images/serie-a-specific-pos.png)
+*Figure 10: Specific positional values in Serie A*
 
 **Transfer Volume & Expenditure Patterns:**
 A key difference in Serie A: the Winger/AM category was no longer the most transferred-in group. Instead, Midfielders and Center-Backs dominated transfer activity, likely reflecting the prevalence of three-center-back systems in Italian football. Like the Premier League, expenditure was spread relatively evenly across positions.
@@ -135,10 +141,12 @@ A key difference in Serie A: the Winger/AM category was no longer the most trans
 **Positional Hierarchy:** CB/DM > CF > Winger/AM > FB > GK
 
 ![Bundesliga Positional Value Boxplots](images/bundesliga-positional-values.png)
-
+*Figure 11: Bundesliga's unique defensive premium*
 
 ![Bundesliga .....](images/bundesliga-pos.png)
+*Figure 12: Broad position breakdown for Bundesliga*
 ![Bundesliga .....](images/bundesliga-specific-pos.png)
+*Figure 13: Detailed positional analysis in Bundesliga*
 
 **Transfer Volume & Expenditure Patterns:**
 The Center Forward and Center Back positions remained the most transferred-in, with Winger/AM as the most transferred category (consistent with other European leagues). Despite this unique valuation pattern, expenditure remained evenly distributed across positions.
@@ -155,13 +163,15 @@ The Center Forward and Center Back positions remained the most transferred-in, w
 **Positional Hierarchy:** CF/MF > Winger/AM > CB > FB > GK
 
 ![Ligue 1 Positional Value Boxplots](images/ligue-1-positional-values.png)
+*Figure 14: Ligue 1 positional values*
 
 ### Ligue 1
 **Most Valuable Position:** Center Forwards & Midfielders  
 **Positional Hierarchy:** CF/MF > Winger/AM > CB > FB > GK
 
-*[Visualization 5: Ligue 1 analysis with outlier effects]*
+*Figure 15: Broad position categories in Ligue 1*
 ![Ligue 1 .....](images/ligue-1-pos.png)
+*Figure 16: Detailed positional values*
 ![Ligue 1 .....](images/ligue-1-specific-pos.png)
 
 **Transfer Volume & Expenditure Patterns:**
@@ -176,11 +186,13 @@ Consistent with other leagues, Center Forwards and Center Backs were the most tr
 
 ## Combined Analysis: Europe's Top 5 Leagues
 
-*[Visualization 6: Combined league positional values]*
+*Figure 17: Aggregated positional values across Europe*
 ![Combined Top 5 Leagues Positional Value Boxplots](images/eu-positional-values.png)
 
 ![Combined leagues .....](images/eu-pos.png)
+*Figure 18: Broad position categories across all leagues*
 ![Combined leagues .....](images/eu-specific-pos.png)
+*Figure 19: Granular positional analysis for Europe*
 
 **Critical Context:** The combined analysis must be interpreted with caution due to the Premier League's disproportionate influence. With approximately 39% of total Big 5 league expenditure (compared to an expected 20% if evenly distributed), Premier League spending significantly skews the overall European picture.
 
