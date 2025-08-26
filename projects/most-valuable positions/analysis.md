@@ -177,6 +177,9 @@ Consistent with other leagues, Center Forwards and Center Backs were the most tr
 *[Visualization 6: Combined league positional values]*
 ![Combined Top 5 Leagues Positional Value Boxplots](images/eu-positional-values.png)
 
+![Combined leagues .....](images/eu-pos.png)
+![Combined leagues .....](images/eu-specific-pos.png)
+
 **Critical Context:** The combined analysis must be interpreted with caution due to the Premier League's disproportionate influence. With approximately 39% of total Big 5 league expenditure (compared to an expected 20% if evenly distributed), Premier League spending significantly skews the overall European picture.
 
 **Overall Positional Hierarchy:**
