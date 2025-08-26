@@ -51,7 +51,7 @@ Before examining individual league patterns, it's crucial to understand the Prem
 - This disparity significantly skews combined European transfer analysis
 
 ![Premier League vs Other Leagues Spending Comparison](images/Visualization-%20Premier%20League%20vs%20Other%20Leagues%20-%20Spending%20Comparison.png)
-*Figure 1: Premier League vs Other Leagues - Spending Comparison*
+*Figure 1: Premier League dominance in European transfer spending*
 
 This financial dominance means Premier League clubs can afford to pay premium prices for players, inflating the overall market and making their positional valuations less representative of broader European trends. When analyzing the combined data, this Premier League effect must be considered as it artificially elevates certain positional values.
 
@@ -60,16 +60,18 @@ This financial dominance means Premier League clubs can afford to pay premium pr
 **Positional Hierarchy:** CF > Winger/AM > CB > MF > FB > GK
 
 ![Premier League Positional Value Boxplots](images/pl-positional-values.png)
-*Figure 1: Premier League positional value boxplots*
+*Figure 2: Premier League positional value distribution*
 
 
 ### Premier League
 **Most Valuable Position:** Center Forward  
 **Positional Hierarchy:** CF > Winger/AM > CB > MF > FB > GK
 
-*[Visualization 1: Premier League positional value boxplots]*
+
 ![Premier League .....](images/epl-pos.png)
+*Figure 3: Broad position categories in Premier League*
 ![Premier League .....](images/epl-specific-pos.png)
+*Figure 4: Granular positional values in Premier League*
 
 **Transfer Volume & Expenditure Patterns:**
 The Center Forward (CF) and Center Back (CB) positions saw the highest transfer activity, representing the most transferred-in positions. However, expenditure was distributed relatively evenly across position groups until a notable drop-off at Full-backs and Goalkeepers.
