@@ -91,6 +91,8 @@ The Center Forward (CF) and Center Back (CB) positions saw the highest transfer 
 **Positional Hierarchy:** Winger/AM > CF > CB > MF > FB > GK
 
 *[Visualization 2: La Liga positional value analysis]*
+![La Liga .....](images/la-liga-pos.png)
+![La Liga .....](images/la-liga-specific-pos.png)
 
 **Transfer Volume & Expenditure Patterns:**
 Similar to the Premier League, Center Forwards and Center Backs were the most transferred-in positions. However, there was a greater proportional spend on the Winger/AM group, with less even distribution compared to England, particularly showing reduced investment in defensive players.
@@ -113,6 +115,8 @@ Similar to the Premier League, Center Forwards and Center Backs were the most tr
 **Positional Hierarchy:** CF > Winger/AM > CB > MF > FB > GK
 
 *[Visualization 3: Serie A positional breakdown]*
+![Serie A .....](images/serie-a-pos.png)
+![Serie A .....](images/serie-a-specific-pos.png)
 
 **Transfer Volume & Expenditure Patterns:**
 A key difference in Serie A: the Winger/AM category was no longer the most transferred-in group. Instead, Midfielders and Center-Backs dominated transfer activity, likely reflecting the prevalence of three-center-back systems in Italian football. Like the Premier League, expenditure was spread relatively evenly across positions.
@@ -129,6 +133,10 @@ A key difference in Serie A: the Winger/AM category was no longer the most trans
 **Positional Hierarchy:** CB/DM > CF > Winger/AM > FB > GK
 
 ![Bundesliga Positional Value Boxplots](images/bundesliga-positional-values.png)
+
+
+![Bundesliga .....](images/bundesliga-pos.png)
+![Bundesliga .....](images/bundesliga-specific-pos.png)
 
 **Transfer Volume & Expenditure Patterns:**
 The Center Forward and Center Back positions remained the most transferred-in, with Winger/AM as the most transferred category (consistent with other European leagues). Despite this unique valuation pattern, expenditure remained evenly distributed across positions.
@@ -151,6 +159,8 @@ The Center Forward and Center Back positions remained the most transferred-in, w
 **Positional Hierarchy:** CF/MF > Winger/AM > CB > FB > GK
 
 *[Visualization 5: Ligue 1 analysis with outlier effects]*
+![Ligue 1 .....](images/ligue-1-pos.png)
+![Ligue 1 .....](images/ligue-1-specific-pos.png)
 
 **Transfer Volume & Expenditure Patterns:**
 Consistent with other leagues, Center Forwards and Center Backs were the most transferred-in positions, with Winger/AM as the most transferred category. However, the massive outlier transfers of Neymar and Mbappé dramatically skewed expenditure percentages, inflating both Winger/AM and CF categories well beyond normal market values.
