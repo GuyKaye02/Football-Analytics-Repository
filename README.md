@@ -43,3 +43,53 @@ Validated results via football intelligence — elite playmakers such as Mesut �
 Answer:
 
 This followed the Soccermatics course spec. A logistic model is standard in industry; here the focus was understanding the probability chain and feature engineering rather than optimizing model class.
+
+
+**⚽ More Sophisticated Expected Danger (xD) Model — Premier League 2015/16**
+
+Python | Scikit-learn | Lasso Logistic Regression | Event Data Modeling | Cross-Validation (5-Fold)
+
+Built a more advanced Expected Danger (xD) model inspired by modern action-value frameworks, extending my Soccermatics Project 2 by incorporating richer event context, regularized logistic models, and cross-validated performance evaluation.
+
+✅ Model Framework
+P(goal within 15s∣pass)= P(shot within 15s∣pass)×P(goal within 15s∣pass leads to shot)
+
+
+Evaluates how much each pass increases the probability of scoring in the next 15 seconds, accounting for context, pressure, and pass type.
+
+**✅ Key Enhancements vs. Original Model**
+
+Lasso (L1-penalized) logistic regression at both stages
+→ improves feature selection & regularization, captures subtle non-linearities
+
+Expanded feature encoding, including:
+
+Pass height: ground / low / high
+
+Pass type flags: cross, through-ball, chip, lay-off
+
+Under-pressure indicator
+
+Set-play vs open-play (free-kick, corner, throw-in)
+
+Pitch-zone start & end (binned coordinates)
+
+5-fold cross-validation for robust generalization
+
+AUC-ROC ~ 0.80, demonstrating strong predictive signal on event-level data
+
+**🎯 Football Insights**
+
+The model consistently identified elite creators who generate scoring threat beyond simple key passes — reflecting true value added in ball progression, disguise, and penetration.
+
+**📌 Why Lasso?**
+
+Reduces overfitting in high-dimensional football event data
+Performs automatic feature selection
+Helps discover interaction effects & non-linear patterns (e.g., crosses only valuable from certain zones)
+
+**🚀 Next Steps -> to do soon**
+
+Test tree-based models (XGBoost / LightGBM / Random Forest) to capture richer non-linear structure and compare mdoels 
+Deploy model on new seasons to evaluate temporal stability & transferability
+Expand to possession-sequence valuation (closer to VAEP / full xT)
