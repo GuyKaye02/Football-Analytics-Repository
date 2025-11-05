@@ -68,10 +68,7 @@ Pass height: ground / low / high
 
 Pass type flags: cross, through-ball, chip, lay-off
 
-Under-pressure indicator
-
 Set-play vs open-play (free-kick, corner, throw-in) and pattern of play (Counter Attack, following Goalkick, etc)
-
 
 5-fold cross-validation for robust generalization
 
