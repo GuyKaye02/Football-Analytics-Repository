@@ -23,7 +23,7 @@ Benchmarked against positional peers (central/defensive midfielders) to contextu
 
 **⚽ Expected Danger (xD) Model — Premier League 2015/16**
 
-Python | Scikit-learn | Event Data Modeling | Logistic & Linear Regression 
+Python | Scikit-learn | Event Data Modeling | Logistic & Linear Regression | Soccermatics Project 2 
 
 Constructed an Expected Danger (xD) model using Premier League 2015/16 event data, identifying passes that lead to shots within 15 seconds and applying the chain rule to estimate goal contribution:
 
