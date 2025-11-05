@@ -35,7 +35,7 @@ To assess Fabián Ruíz's ability to support teammates under pressure, I compare
 - **Frequency** of passes attempted under pressure per match (standardized using a z-score)
 - **Success rate** of those passes (passing accuracy under pressure)
 
-![Pass Under Pressure Analysis](../assets/images/fabian-ruiz-pressure-analysis.png)
+![Pass Under Pressure Analysis](../../assets/images/fabian-ruiz-pressure-analysis.png)
 
 The plot above is divided into four quadrants using mean values for both axes. Fabián stands out in the top-right: **high frequency, high accuracy** quadrant. He attempted pressured passes at a rate **0.82 standard deviations above the average**, while also maintaining an impressive **86.7% accuracy**, far exceeding the 81.7% mean. This places him among the most press-resistant midfielders in the tournament.
 
