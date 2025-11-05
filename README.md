@@ -21,7 +21,7 @@ Built custom visualizations with mplsoccer and matplotlib — including pass map
 Benchmarked against positional peers (central/defensive midfielders) to contextualize his performance profile, highlighting Ruiz’s standout passing security under pressure, forward progression, and link play within Spain’s possession-first structure.
 
 
-**⚽ Expected Danger (xD) Model — Premier League 2015/16**
+**⚽ Simple Expected Danger (xD) Model — Premier League 2015/16**
 
 Python | Scikit-learn | Event Data Modeling | Logistic & Linear Regression | Soccermatics Project 2 
 
