@@ -19,3 +19,27 @@ Conducted a data-driven scouting report on Spain midfielder Fabián Ruiz, using 
 Built custom visualizations with mplsoccer and matplotlib — including pass maps, pressure-adjusted passing charts, event-density plots, and quadrant comparisons to communicate playing style and efficiency.
 
 Benchmarked against positional peers (central/defensive midfielders) to contextualize his performance profile, highlighting Ruiz’s standout passing security under pressure, forward progression, and link play within Spain’s possession-first structure.
+
+
+**⚽ Expected Danger (xD) Model — Premier League 2015/16**
+
+Python | Scikit-learn | Event Data Modeling | Logistic & Linear Regression 
+
+Constructed an Expected Danger (xD) model using Premier League 2015/16 event data, identifying passes that lead to shots within 15 seconds and applying the chain rule to estimate goal contribution:
+
+P(goal within 15s∣pass)= P(shot within 15s∣pass)×P(goal within 15s∣pass leads to shot)
+
+
+Developed two machine-learning models in Python (Scikit-learn):
+• Logistic regression to predict shot probability from pass location features
+• Linear regression to model shot-to-goal conversion likelihood
+Used engineered spatial inputs: pitch-coordinate transforms, distances, and nonlinear terms to capture attacking threat.
+
+
+Validated results via football intelligence — elite playmakers such as Mesut Özil, Santi Cazorla, and Cesc Fàbregas emerged as top performers, matching tactical expectations from the 2015/16 season.
+
+“Why linear regression instead of logistic for goals?”
+
+Answer:
+
+This followed the Soccermatics course spec. A logistic model is standard in industry; here the focus was understanding the probability chain and feature engineering rather than optimizing model class.
