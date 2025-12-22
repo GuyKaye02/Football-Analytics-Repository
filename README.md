@@ -7,7 +7,7 @@ Primary tools: Python, scikit-learn, TensorFlow, event & tracking data, R
 
 ---
 
-## 📌 Flagship Projects
+## 📌 Projects
 
 ### ⚽ Expected Goals (xG) Model — Event-Level Football Data
 **Python | scikit-learn | TensorFlow | Probabilistic Modeling | Calibration | Streamlit**
