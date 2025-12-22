@@ -34,7 +34,7 @@ Built an Expected Danger (xD) model estimating how much each pass increases the 
 - Rich contextual features (pass type, height, set play, pressure)
 - 5-fold cross-validation, ROC-AUC ≈ 0.80
 
-➡️ [View project](projects/expected_danger_regularized)
+➡️ [View project](projects/expected_danger/regularized)
 
 #### Baseline xD Model (Soccermatics specification)
 Implemented an initial xD baseline to emphasize probability chaining and spatial feature engineering.
@@ -42,7 +42,7 @@ Implemented an initial xD baseline to emphasize probability chaining and spatial
 - Logistic regression for shot probability
 - Linear regression for shot-to-goal conversion (course specification)
 
-➡️ [View baseline](projects/expected_danger_baseline)
+➡️ [View baseline](projects/expected_danger/baseline)
 
 ---
 
