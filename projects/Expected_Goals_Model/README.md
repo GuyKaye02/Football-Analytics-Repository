@@ -16,7 +16,7 @@ The primary goal was to compare multiple modeling approaches for estimating shot
 ## Data
 - Event-level football data  
 - 45,000+ shots  
-- Shot-level spatial and contextual features (location, angle, distance, etc.)
+- Shot-level spatial and contextual features (angle, distance, under pressure, goalkeeper positioning etc.)
 
 ---
 
@@ -24,7 +24,7 @@ The primary goal was to compare multiple modeling approaches for estimating shot
 The xG task was formulated as a **binary classification problem**:
 
 - Target variable: goal (1) vs no goal (0)  
-- Models estimate \( P(\text{goal} \mid \text{shot features}) \)
+- Models estimate the probability of a goal given shot-level features
 
 The following model classes were implemented and compared:
 - Logistic Regression (L1 / Lasso)
