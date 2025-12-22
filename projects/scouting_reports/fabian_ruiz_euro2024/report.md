@@ -21,7 +21,7 @@ This analysis explores how Fabián's technical security under pressure and intel
 
 ## Spatial Analysis
 
-![Football Field Diagram](../../assets/images/football-field-diagram.png)
+![Football Field Diagram](assets/images/football-field-diagram.png)
 
 
 The heat map shows where Fabián Ruiz received the ball from teammates during Euro 2024. While there's a clear concentration in the left half-space—typical for his role as a left central midfielder—he also appeared in deeper areas and occasionally drifted across to the right. 
@@ -35,7 +35,7 @@ To assess Fabián Ruíz's ability to support teammates under pressure, I compare
 - **Frequency** of passes attempted under pressure per match (standardized using a z-score)
 - **Success rate** of those passes (passing accuracy under pressure)
 
-![Pass Under Pressure Analysis](../../assets/images/fabian-ruiz-pressure-analysis.png)
+![Pass Under Pressure Analysis](assets/images/fabian-ruiz-pressure-analysis.png)
 
 The plot above is divided into four quadrants using mean values for both axes. Fabián stands out in the top-right: **high frequency, high accuracy** quadrant. He attempted pressured passes at a rate **0.82 standard deviations above the average**, while also maintaining an impressive **86.7% accuracy**, far exceeding the 81.7% mean. This places him among the most press-resistant midfielders in the tournament.
 
