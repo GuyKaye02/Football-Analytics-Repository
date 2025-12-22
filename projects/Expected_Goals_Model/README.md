@@ -59,6 +59,8 @@ This evaluation framework emphasized not only predictive power, but also the qua
 - Interactive Streamlit application enabling real-time manipulation of shot features
 - Visualization of model-predicted xG values across different scenarios
 
+The Streamlit app was developed collaboratively and serves as a visualization and exploration tool rather than a production deployment.
+
 ---
 
 ## My Contributions
