@@ -52,6 +52,8 @@ Model performance was assessed using **out-of-sample evaluation**:
 - Brier score and reliability curves to assess probability calibration
 
 This evaluation framework emphasized not only predictive power, but also the quality and interpretability of predicted probabilities.
+Detailed model comparisons and evaluation results are documented in the final project report.
+
 
 ---
 
