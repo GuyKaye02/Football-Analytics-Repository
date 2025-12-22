@@ -13,6 +13,14 @@ The primary goal was to compare multiple modeling approaches for estimating shot
 
 ---
 
+## Project Structure
+
+- `notebooks/`: data collection, exploratory analysis, feature engineering, and model training notebooks
+- `report/`: final project report containing model comparison and evaluation results
+- `app/`: Streamlit application for interactive xG visualization
+
+---
+
 ## Data
 - Event-level football data  
 - 45,000+ shots  
