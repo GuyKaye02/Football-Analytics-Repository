@@ -22,36 +22,25 @@ Built probabilistic expected goals (xG) models on 45,000+ shots using event-leve
 
 ---
 
-### ⚽ Action-Based Expected Threat (xT) Model
-**Python | scikit-learn | Event Data Modeling | Soccermatics Pro Course**
-
-Built an action-level expected threat (xT) model on 1M+ football events to quantify the value of passes and their contribution to scoring probability.
-
-- Logistic regression framework
-- Spatial and contextual feature engineering
-- Action-based valuation aligned with modern possession-value models
-
-➡️ [View project](projects/expected_threat)
-
----
-
-## 📊 Event-Level Action Valuation
+## 📊 Event-Level Action Valuation (xD)
 
 ### ⚽ Expected Danger (xD) Model — Regularized Logistic Framework
 **Python | scikit-learn | L1 Logistic Regression | Cross-Validation**
 
 Built an Expected Danger (xD) model estimating how much each pass increases the probability of scoring within the next 15 seconds.
 
-- Probability chain:
-  P(goal | pass) = P(shot within 15s | pass) × P(goal | shot)
+- Probability chain: P(goal | pass) = P(shot within 15s | pass) × P(goal | shot)
 - L1-regularized logistic regression at both stages
 - Rich contextual features (pass type, height, set play, pressure)
 - 5-fold cross-validation, ROC-AUC ≈ 0.80
 
 ➡️ [View project](projects/expected_danger_regularized)
 
-#### Baseline xD Model (for comparison)
-Implemented an initial xD baseline using logistic regression and linear regression to emphasize probability chaining and spatial feature engineering.
+#### Baseline xD Model (Soccermatics specification)
+Implemented an initial xD baseline to emphasize probability chaining and spatial feature engineering.
+
+- Logistic regression for shot probability
+- Linear regression for shot-to-goal conversion (course specification)
 
 ➡️ [View baseline](projects/expected_danger_baseline)
 
