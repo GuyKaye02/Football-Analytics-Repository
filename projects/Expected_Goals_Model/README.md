@@ -29,9 +29,11 @@ The primary goal was to compare multiple modeling approaches for estimating shot
 ---
 
 ## Modeling Framework
+
 The xG task was formulated as a **binary classification problem**:
 
-- Target variable: goal (1) vs no goal (0)  
+- Target variable: binary shot outcome (1 = goal, 0 = no goal)
+
 - Models estimate the probability of a goal given shot-level features
 
 The following model classes were implemented and compared:
