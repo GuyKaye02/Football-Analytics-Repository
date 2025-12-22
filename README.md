@@ -1,91 +1,91 @@
-# Football-Analytics-Repository
-This GitHub repository is designed to share my work in football analytics
+# Football Analytics Portfolio
 
-**📊 Most Valuable Position Analysis — R (Summer 2023)**
+This repository contains selected football analytics projects focused on
+probabilistic modeling, football data analysis (event & tracking), and player/action valuation.
 
-Scraped & unified 6 seasons of European transfer-market data (3,000+ transfers) across the top 5 leagues using WorldFootballR from Transfermarkt and FBref; categorized players into 10 tactical positions.
+Primary tools: Python, scikit-learn, TensorFlow, event & tracking data, R
 
-Quantified positional value trends by analyzing transfer fees, market valuations, and player characteristics to identify premium positions, undervalued roles, and cross-league pricing inefficiencies.
+---
 
-Discovered market shifts such as rising premiums for left-footed center-backs & ball-playing goalkeepers, and trend toward shorter-distance GK distribution — providing data-driven positional arbitrage insights for recruitment strategies.
+## 📌 Flagship Projects
 
+### ⚽ Expected Goals (xG) Model — Event-Level Football Data
+**Python | scikit-learn | TensorFlow | Probabilistic Modeling | Calibration | Streamlit**
 
-**🎯 Player Scouting Analysis — Fabián Ruiz, Euro 2024**
+Built probabilistic expected goals (xG) models on 45,000+ shots using event-level football data.
 
-Python | StatsBomb Open Data | mplsoccer | Soccermatics Project 1 
+- Models: Logistic Regression (L1/Lasso), Random Forests, Gradient Boosted Trees, Neural Network (TensorFlow)
+- Evaluation: ROC-AUC and probability calibration (reliability curves)
+- Deployment: Interactive Streamlit app for real-time manipulation of shot features and visualization of model-predicted xG
 
-Conducted a data-driven scouting report on Spain midfielder Fabián Ruiz, using open-source StatsBomb Euro 2024 event data to evaluate his passing quality, press-resistance, ball progression and involvement in chance creation.
+➡️ [View project](projects/expected_goals)
 
-Built custom visualizations with mplsoccer and matplotlib — including pass maps, pressure-adjusted passing charts, event-density plots, and quadrant comparisons to communicate playing style and efficiency.
+---
 
-Benchmarked against positional peers (central/defensive midfielders) to contextualize his performance profile, highlighting Ruiz’s standout passing security under pressure, forward progression, and link play within Spain’s possession-first structure.
+### ⚽ Action-Based Expected Threat (xT) Model
+**Python | scikit-learn | Event Data Modeling | Soccermatics Pro Course**
 
+Built an action-level expected threat (xT) model on 1M+ football events to quantify the value of passes and their contribution to scoring probability.
 
-**⚽ Simple Expected Danger (xD) Model — Premier League 2015/16**
+- Logistic regression framework
+- Spatial and contextual feature engineering
+- Action-based valuation aligned with modern possession-value models
 
-Python | Scikit-learn | Event Data Modeling | Logistic & Linear Regression | Soccermatics Project 2 
+➡️ [View project](projects/expected_threat)
 
-Constructed an Expected Danger (xD) model using Premier League 2015/16 event data, identifying passes that lead to shots within 15 seconds and applying the chain rule to estimate goal contribution:
+---
 
-P(goal within 15s∣pass)= P(shot within 15s∣pass)×P(goal within 15s∣pass leads to shot)
+## 📊 Event-Level Action Valuation
 
+### ⚽ Expected Danger (xD) Model — Regularized Logistic Framework
+**Python | scikit-learn | L1 Logistic Regression | Cross-Validation**
 
-Developed two machine-learning models in Python (Scikit-learn):
-• Logistic regression to predict shot probability from pass location features
-• Linear regression to model shot-to-goal conversion likelihood
-Used engineered spatial inputs: pitch-coordinate transforms, distances, and nonlinear terms to capture attacking threat.
+Built an Expected Danger (xD) model estimating how much each pass increases the probability of scoring within the next 15 seconds.
 
+- Probability chain:
+  P(goal | pass) = P(shot within 15s | pass) × P(goal | shot)
+- L1-regularized logistic regression at both stages
+- Rich contextual features (pass type, height, set play, pressure)
+- 5-fold cross-validation, ROC-AUC ≈ 0.80
 
-Validated results via football intelligence — elite playmakers such as Mesut Özil, Santi Cazorla, and Cesc Fàbregas emerged as top performers, matching tactical expectations from the 2015/16 season.
+➡️ [View project](projects/expected_danger_regularized)
 
-“Why linear regression instead of logistic for goals?”
+#### Baseline xD Model (for comparison)
+Implemented an initial xD baseline using logistic regression and linear regression to emphasize probability chaining and spatial feature engineering.
 
-Answer:
+➡️ [View baseline](projects/expected_danger_baseline)
 
-This followed the Soccermatics course spec. A logistic model is standard in industry; here the focus was understanding the probability chain and feature engineering rather than optimizing model class.
+---
 
+## 🧠 Player & Market Analysis
 
-**⚽ More Sophisticated Expected Danger (xD) Model — Premier League 2015/16**
+### 🎯 Player Scouting Analysis — Fabián Ruiz (Euro 2024)
+**Python | StatsBomb Open Data | mplsoccer | Visualization**
 
-Python | Scikit-learn | Lasso Logistic Regression | Event Data Modeling | Cross-Validation (5-Fold)
+Conducted a data-driven scouting analysis of Fabián Ruiz using Euro 2024 event data.
 
-Built a more advanced Expected Danger (xD) model inspired by modern action-value frameworks, extending my Soccermatics Project 2 by incorporating richer event context, regularized logistic models, and cross-validated performance evaluation.
+- Passing quality, press resistance, ball progression, chance creation
+- Custom visualizations: pass maps, pressure-adjusted charts, event density plots
+- Peer benchmarking against central/defensive midfielders
 
-✅ Model Framework
-P(goal within 15s∣pass)= P(shot within 15s∣pass)×P(goal within 15s∣pass leads to shot)
+➡️ [View project](projects/fabian_ruiz_scouting)
 
+---
 
-Evaluates how much each pass increases the probability of scoring in the next 15 seconds, accounting for context, pressure, and pass type.
+### 📊 Transfer Market Valuation — Positional Analysis
+**R | WorldFootballR | Transfermarkt | FBref**
 
-**✅ Key Enhancements vs. Original Model**
+Analyzed 6 seasons of European transfer data (3,000+ transfers) across the Big 5 leagues to quantify positional market valuations.
 
-Lasso (L1-penalized) logistic regression at both stages
-→ improves feature selection & regularization, captures subtle non-linearities
+- Categorized players into 10 tactical positions
+- Identified market premiums, undervalued roles, and cross-league inefficiencies
+- Highlighted trends such as rising premiums for left-footed CBs and ball-playing GKs
 
-Expanded feature encoding, including:
+➡️ [View project](projects/transfer_market_analysis)
 
-Pass height: ground / low / high
+---
 
-Pass type flags: cross, through-ball, chip, lay-off
-
-Set-play vs open-play (free-kick, corner, throw-in) and pattern of play (Counter Attack, following Goalkick, etc)
-
-5-fold cross-validation for robust generalization
-
-AUC-ROC ~ 0.80, demonstrating strong predictive signal on event-level data
-
-**🎯 Football Insights**
-
-The model consistently identified elite creators who generate scoring threat beyond simple key passes — reflecting true value added in ball progression, disguise, and penetration.
-
-**📌 Why Lasso?**
-
-Reduces overfitting in high-dimensional football event data
-Performs automatic feature selection
-Helps discover interaction effects & non-linear patterns (e.g., crosses only valuable from certain zones)
-
-**🚀 Next Steps -> to do soon**
-
-Test tree-based models (XGBoost / LightGBM / Random Forest) to capture richer non-linear structure and compare mdoels 
-Deploy model on new seasons to evaluate temporal stability & transferability
-Expand to possession-sequence valuation (closer to VAEP / full xT)
+## 📬 Contact
+- GitHub: https://github.com/GuyKaye02
+- LinkedIn: (add once updated)
+<img width="451" height="696" alt="image" src="https://github.com/user-attachments/assets/275cda29-6715-4865-9f3d-077e941aee03" />
