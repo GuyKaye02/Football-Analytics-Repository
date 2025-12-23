@@ -18,7 +18,7 @@ Built probabilistic expected goals (xG) models on 45,000+ shots using event-leve
 - Evaluation: ROC-AUC and probability calibration (reliability curves)
 - Deployment: Interactive Streamlit app for real-time manipulation of shot features and visualization of model-predicted xG
 
-➡️ [View project](projects/expected_goals)
+➡️ [View project](projects/Expected_Goals_Model)
 
 ---
 
@@ -57,7 +57,7 @@ Conducted a data-driven scouting analysis of Fabián Ruiz using Euro 2024 event 
 - Custom visualizations: pass maps, pressure-adjusted charts, event density plots
 - Peer benchmarking against central/defensive midfielders
 
-➡️ [View project](projects/fabian_ruiz_scouting)
+➡️ [View project](projects/scouting_reports/fabian_ruiz_euro2024)
 
 ---
 
