@@ -80,5 +80,5 @@ Also includes qualitative football analysis combining video, telestration, and d
 ## 📬 Contact
 
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/guykaye/)
-- Email: [Email](gak2135@columbia.edu)
+- Email: gak2135@columbia.edu
 
