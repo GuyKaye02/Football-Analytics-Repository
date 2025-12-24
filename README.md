@@ -78,6 +78,7 @@ Also includes qualitative football analysis combining video, telestration, and d
 ---
 
 ## 📬 Contact
-- GitHub: https://github.com/GuyKaye02
+
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/guykaye/)
+- Email: [Email](gak2135@columbia.edu)
 
