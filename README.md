@@ -76,5 +76,5 @@ Analyzed 6 seasons of European transfer data (3,000+ transfers) across the Big 5
 
 ## 📬 Contact
 - GitHub: https://github.com/GuyKaye02
-- LinkedIn: [(LinkedIn)](https://www.linkedin.com/in/guykaye/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/guykaye/)
 
