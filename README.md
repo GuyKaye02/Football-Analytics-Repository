@@ -73,6 +73,8 @@ Analyzed 6 seasons of European transfer data (3,000+ transfers) across the Big 5
 ➡️ [View project](projects/transfer_market_analysis)
 
 ---
+Also includes qualitative football analysis combining video, telestration, and descriptive data to support player and tactical evaluation
+---
 
 ## 📬 Contact
 - GitHub: https://github.com/GuyKaye02
