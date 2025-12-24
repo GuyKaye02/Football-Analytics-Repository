@@ -10,9 +10,14 @@ I decided to do a scout report on him with the use of video in conjunction with 
 
 As an Arsenal fan, it became clear from last season that a goal-scoring striker was needed.  
 Although Arsenal's NPxG p90 dramatically improved in the League since Smith-Rowe's inclusion against Chelsea in December (1.01 to 1.45), they lacked a goal-threat from their strikers.
+![](assets/Arsenal_2020_NPxG.png)
+
 
 While he offered some link-up play ability and scored more than expected, Lacazette's NPxG p90 of 0.35 wasn't desirable for a team looking to get back into the top 4.  
 Aubameyang's output in front of goal fell (A LOT) and was worryingly poor on the ball.
+
+![](assets/Arsenal_Attackers_NPxG.jpeg)
+
 
 Abraham was identified.
 
@@ -24,6 +29,8 @@ Tammy Abraham as a goal-scorer, for an 18–19 year old in the Championship, loo
 At Swansea, his xG output was solid considering the team, league and age.  
 At Villa, like Bristol, he scored lots.  
 Then at Chelsea, his top goal ratio remained.
+
+![](assets/Tammy_Abraham_Output.png)
 
 ### Goals — 2019/20 Season
 
@@ -52,6 +59,10 @@ There's lots of variety in the types of goals scored and finishes used.
 
 I really like his use of movement — whether it's blindside runs, winning the back of the defender, or ghosting far post.
 
+![](assets/Tammy_Abraham_Goal_Analysis_P1.jpeg)
+![](assets/Tammy_Abraham_Goal_Analysis_P2.jpeg)
+
+
 One of my favourite attributes of Abraham is his shot selection.  
 Here is a shot-map from InStat of all of his shots for Chelsea.
 
@@ -60,6 +71,8 @@ X: blocked/wide shots
 
 Tammy's NPxG per shot at Chelsea (UCL + PL) is **0.176** — very good.  
 Very few wasted shots outside the box.
+
+![](assets/Tammy_Abraham_Shot_Map.png)
 
 ---
 
@@ -109,6 +122,8 @@ Abraham is most effective at providing from first-time layoffs either in the box
 He can also run the channels and play dangerous low box crosses.
 
 However, his creative metrics are left to be desired.
+
+![](assets/Tammy_Abraham_Creative_Metrics.png)
 
 The perception, due to his 'lanky' frame, is that Tammy is poor on the ball and cannot link up play well.  
 However, I think this is harsh and that he has shown the ability to do so.  
