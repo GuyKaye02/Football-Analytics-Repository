@@ -1,4 +1,4 @@
-# Tammy Abraham — Scouting Report (2019–21)
+# Tammy Abraham — Scouting Report (Pre-Roma Transfer)
 
 This project predates my current ML-focused work and reflects a more traditional scouting workflow combining:
 - Video analysis and telestration
