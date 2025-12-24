@@ -5,6 +5,9 @@ Tammy Abraham has left Chelsea yesterday for a fee of around €40m to join Mour
 The English 23 year old and #9 attracted heavy interest from clubs such as Atalanta and Arsenal.
 
 I decided to do a scout report on him with the use of video in conjunction with data.  
+
+![](assets/Tammy_Abraham_Intro.png)
+
 As an Arsenal fan, it became clear from last season that a goal-scoring striker was needed.  
 Although Arsenal's NPxG p90 dramatically improved in the League since Smith-Rowe's inclusion against Chelsea in December (1.01 to 1.45), they lacked a goal-threat from their strikers.
 
