@@ -88,3 +88,4 @@ Lightweight exploratory analyses for intuition-building and hypothesis generatio
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/guykaye/)
 - Email: gak2135@columbia.edu
 
+Additional football analysis and visual work (including tactical breakdowns and exploratory plots) can be found on my Twitter/X: [@GuyKaye2]
