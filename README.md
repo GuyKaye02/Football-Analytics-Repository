@@ -74,6 +74,7 @@ Analyzed 6 seasons of European transfer data (3,000+ transfers) across the Big 5
 
 ---
 Also includes qualitative football analysis combining video, telestration, and descriptive data to support player and tactical evaluation
+➡️ [View project](projects/scouting_reports)
 
 ---
 
