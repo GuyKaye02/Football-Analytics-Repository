@@ -8,10 +8,10 @@
 
 ## Overview
 
-![](assets/Scamacca_1.png)
-![](assets/Scamacca_2.png)
-![](assets/Scamacca_3.png)
-![](assets/Scamacca_4.png)
+![](assets/Scamacca_1.jpeg)
+![](assets/Scamacca_2.jpeg)
+![](assets/Scamacca_3.jpeg)
+![](assets/Scamacca_4.jpeg)
 
 Football will always be an 11-a-side game with the objective to score more than the opposition.  
 However, over time there has been an evolution in tactics, positions, and the specific roles players are tasked to carry out. The expectations of what a #9 (striker) should be have changed.
