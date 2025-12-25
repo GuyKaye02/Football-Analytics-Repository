@@ -78,6 +78,11 @@ Also includes qualitative football analysis combining video, telestration, and d
 
 ---
 
+### Exploratory Analysis
+Lightweight exploratory analyses for intuition-building and hypothesis generation (see `exploratory_analysis/`).
+
+---
+
 ## 📬 Contact
 
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/guykaye/)
