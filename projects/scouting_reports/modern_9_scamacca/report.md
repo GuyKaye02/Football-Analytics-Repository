@@ -73,7 +73,7 @@ His execution of *up-back-through* combinations was particularly effective in br
 > **Note:** GitHub may download `.mp4` files instead of playing them inline.
 
 - **Scamacca**  
-  ▶️ [View clip](videos/scamacca.mp4)
+  ▶️ [View clip](videos/Scamacca.mp4)
 
 
 ---
@@ -83,7 +83,7 @@ His execution of *up-back-through* combinations was particularly effective in br
 For comparison, an earlier analysis of **Patrik Schick** is referenced, highlighting differences in link-up effectiveness despite strong goal-scoring output.
 
 - **Schick**  
-  ▶️ [View clip](videos/schick.mp4)
+  ▶️ [View clip](videos/Schick.mp4)
 
 ---
 
