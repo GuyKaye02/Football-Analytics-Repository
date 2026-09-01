@@ -9,6 +9,16 @@ Primary tools: Python, scikit-learn, TensorFlow, event & tracking data, R
 
 ## 📌 Projects
 
+### ⚽ Evaluating Passing Decisions — Synchronised Tracking and Dynamic Event Data 
+**Python | UnravelSports | PyTorch | Probabilistic Modeling | Graph Neural Networks**
+
+Built a counterfactual expected pass value (xPV) framework to evaluate passing decisions using tracking data.
+
+- Models: Graph Neural Networks, Gradient Boosted Trees 
+
+➡️ [View project](projects/pass_decision_making)
+
+---
 ### ⚽ Expected Goals (xG) Model — Event-Level Football Data
 **Python | scikit-learn | TensorFlow | Probabilistic Modeling | Calibration | Streamlit**
 
