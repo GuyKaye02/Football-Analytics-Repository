@@ -5,4 +5,6 @@ Pause a Real Madrid match at the moment a pass is released, see what every optio
 worth, and judge whether the player picked the best one. Includes the Bellingham and
 Kroos case studies, with video.
 
+
+### Built a counterfactual expected pass value (xPV) framework to evaluate passing decisions using tracking data
 📄 [Full project report (PDF)](Soccermatics_Project_Report.pdf)
